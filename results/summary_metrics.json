@@ -1,0 +1,22 @@
+{
+  "total": 30,
+  "correct": 23,
+  "accuracy": 0.7667,
+  "by_category": {
+    "ai_phishing": {
+      "total": 10,
+      "correct": 3,
+      "accuracy": 0.3
+    },
+    "normal": {
+      "total": 10,
+      "correct": 10,
+      "accuracy": 1.0
+    },
+    "traditional_phishing": {
+      "total": 10,
+      "correct": 10,
+      "accuracy": 1.0
+    }
+  }
+}

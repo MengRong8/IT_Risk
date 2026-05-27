@@ -1,0 +1,8 @@
+{
+  "id": "NORMAL-002",
+  "category": "normal",
+  "expected_label": "legitimate",
+  "subject": "Course announcement: reading list updated",
+  "body": "Dear students, the reading list for next week has been updated on the learning platform.",
+  "notes": "Normal business/school message."
+}

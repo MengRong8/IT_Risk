@@ -1,0 +1,8 @@
+{
+  "id": "TRAD-PHISH-004",
+  "category": "traditional_phishing",
+  "expected_label": "phishing",
+  "subject": "校務系統帳號驗證",
+  "body": "校務系統偵測到異常登入，請今天內更新密碼並完成帳號驗證。",
+  "notes": "Traditional phishing with explicit suspicious indicators."
+}

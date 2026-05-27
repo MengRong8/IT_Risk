@@ -1,0 +1,8 @@
+{
+  "id": "NORMAL-003",
+  "category": "normal",
+  "expected_label": "legitimate",
+  "subject": "Office maintenance notice",
+  "body": "The office network will undergo scheduled maintenance on Friday from 7 PM to 8 PM. No action is required.",
+  "notes": "Normal business/school message."
+}

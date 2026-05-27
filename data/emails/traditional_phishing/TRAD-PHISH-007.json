@@ -1,0 +1,8 @@
+{
+  "id": "TRAD-PHISH-007",
+  "category": "traditional_phishing",
+  "expected_label": "phishing",
+  "subject": "付款失敗通知",
+  "body": "您的付款失敗，請立即開啟附件並重新輸入銀行帳戶資訊。",
+  "notes": "Traditional phishing with explicit suspicious indicators."
+}

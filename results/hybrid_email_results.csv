@@ -1,0 +1,31 @@
+id,category,expected_label,detector,predicted_label,risk_score,is_correct,latency_ms,matched_rules,decision_source,reasons,suspicious_indicators,subject
+AI-PHISH-001,ai_phishing,phishing,hybrid,uncertain,45,False,2149.23,financial_action;attachment_lure,llm_escalation,Attachment included which could be malicious;Request for bank account confirmation could be a phishing tactic,Unsolicited request for sensitive information;Generic greeting without a full name,Updated reimbursement workflow for this week
+AI-PHISH-002,ai_phishing,phishing,hybrid,legitimate,0,False,0.38,,rule_based_confident,,,Quick check on your course portal access
+AI-PHISH-003,ai_phishing,phishing,hybrid,phishing,85,True,3760.57,credential_request,llm_escalation,Requests user to log in to a verification page;Unclear sender identity;Urgency implied in confirming access,Generic greeting;No specific details about the project;Link to a verification page not provided,Follow-up on shared drive permissions
+AI-PHISH-004,ai_phishing,phishing,hybrid,phishing,70,True,0.093,urgency;financial_action;impersonation,rule_based_confident,,,報銷流程小幅調整確認
+AI-PHISH-005,ai_phishing,phishing,hybrid,phishing,85,True,4322.21,credential_request,llm_escalation,Urgency to verify account details;Generic greeting without a specific name;Request for sensitive information,Unusual request from HR;Lack of official email signature;No specific details about the review process,Gentle reminder: HR profile review
+AI-PHISH-006,ai_phishing,phishing,hybrid,phishing,85,True,3616.082,credential_request,llm_escalation,Urgency to verify account;Request to use a temporary login page;Lack of official communication channels,Generic greeting;Unverified sender email address;Link to a temporary page,Class platform migration check
+AI-PHISH-007,ai_phishing,phishing,hybrid,phishing,60,True,0.09,financial_action;attachment_lure;impersonation,rule_based_confident,,,主管請你協助確認一份發票
+AI-PHISH-008,ai_phishing,phishing,hybrid,phishing,85,True,3010.872,credential_request,llm_escalation,Urgency to confirm login information;Request for sensitive information;Generic greeting without personalization,Unusual request from IT;No official email signature;Deadline for response,Account access cleanup before Friday
+AI-PHISH-009,ai_phishing,phishing,hybrid,uncertain,50,False,3215.265,financial_action;attachment_lure,llm_escalation,Vague request for confirmation;No specific details about the project;Lack of sender identification,Unsolicited request for payment information;Generic greeting,Small update to payment contact details
+AI-PHISH-010,ai_phishing,phishing,hybrid,phishing,80,True,0.098,credential_request;urgency;impersonation,rule_based_confident,,,校務系統資料同步確認
+NORMAL-001,normal,legitimate,hybrid,legitimate,0,True,0.08,,rule_based_confident,,,Weekly project meeting reminder
+NORMAL-002,normal,legitimate,hybrid,legitimate,0,True,0.076,,rule_based_confident,,,Course announcement: reading list updated
+NORMAL-003,normal,legitimate,hybrid,legitimate,0,True,0.076,,rule_based_confident,,,Office maintenance notice
+NORMAL-004,normal,legitimate,hybrid,legitimate,0,True,0.073,,rule_based_confident,,,Lunch order confirmation
+NORMAL-005,normal,legitimate,hybrid,legitimate,15,True,0.065,attachment_lure,rule_based_confident,,,Team retrospective notes
+NORMAL-006,normal,legitimate,hybrid,legitimate,0,True,0.079,,rule_based_confident,,,Library book due reminder
+NORMAL-007,normal,legitimate,hybrid,legitimate,0,True,0.069,,rule_based_confident,,,Guest lecture invitation
+NORMAL-008,normal,legitimate,hybrid,legitimate,0,True,0.065,,rule_based_confident,,,Updated classroom location
+NORMAL-009,normal,legitimate,hybrid,legitimate,0,True,0.066,,rule_based_confident,,,Monthly newsletter
+NORMAL-010,normal,legitimate,hybrid,legitimate,0,True,0.075,,rule_based_confident,,,Project file naming convention
+TRAD-PHISH-001,traditional_phishing,phishing,hybrid,phishing,90,True,0.056,credential_request;urgency;suspicious_url,rule_based_confident,,,Final notice: verify your account today
+TRAD-PHISH-002,traditional_phishing,phishing,hybrid,phishing,100,True,0.046,credential_request;urgency;suspicious_url;external_pressure,rule_based_confident,,,銀行帳號最後通知
+TRAD-PHISH-003,traditional_phishing,phishing,hybrid,phishing,65,True,0.059,urgency;financial_action;external_pressure,rule_based_confident,,,Urgent invoice payment required
+TRAD-PHISH-004,traditional_phishing,phishing,hybrid,phishing,80,True,0.042,credential_request;urgency;impersonation,rule_based_confident,,,校務系統帳號驗證
+TRAD-PHISH-005,traditional_phishing,phishing,hybrid,phishing,90,True,0.052,credential_request;financial_action;suspicious_url,rule_based_confident,,,You've won a prize
+TRAD-PHISH-006,traditional_phishing,phishing,hybrid,phishing,95,True,0.045,credential_request;urgency;impersonation;external_pressure,rule_based_confident,,,IT department password reset
+TRAD-PHISH-007,traditional_phishing,phishing,hybrid,phishing,65,True,0.039,urgency;financial_action;attachment_lure,rule_based_confident,,,付款失敗通知
+TRAD-PHISH-008,traditional_phishing,phishing,hybrid,phishing,100,True,0.053,credential_request;urgency;suspicious_url;impersonation;external_pressure,rule_based_confident,,,Final warning from system administrator
+TRAD-PHISH-009,traditional_phishing,phishing,hybrid,phishing,65,True,0.109,urgency;financial_action;attachment_lure,rule_based_confident,,,Invoice attached - immediate response required
+TRAD-PHISH-010,traditional_phishing,phishing,hybrid,phishing,80,True,0.041,credential_request;urgency;impersonation,rule_based_confident,,,人資薪資資料確認

@@ -1,0 +1,8 @@
+{
+  "id": "TRAD-PHISH-003",
+  "category": "traditional_phishing",
+  "expected_label": "phishing",
+  "subject": "Urgent invoice payment required",
+  "body": "Please make a wire transfer today. The invoice is overdue and access will expire if payment is not completed.",
+  "notes": "Traditional phishing with explicit suspicious indicators."
+}

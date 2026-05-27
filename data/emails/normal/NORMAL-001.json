@@ -1,0 +1,8 @@
+{
+  "id": "NORMAL-001",
+  "category": "normal",
+  "expected_label": "legitimate",
+  "subject": "Weekly project meeting reminder",
+  "body": "Hi team, our weekly project meeting is tomorrow at 10 AM in Room B. Please bring your progress update.",
+  "notes": "Normal business/school message."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "TRAD-PHISH-005",
+  "category": "traditional_phishing",
+  "expected_label": "phishing",
+  "subject": "You've won a prize",
+  "body": "Congratulations, you won a reward. Click http://example.com/login and enter your bank account to receive payment.",
+  "notes": "Traditional phishing with explicit suspicious indicators."
+}

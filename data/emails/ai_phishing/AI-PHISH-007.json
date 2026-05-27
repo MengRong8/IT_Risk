@@ -1,0 +1,8 @@
+{
+  "id": "AI-PHISH-007",
+  "category": "ai_phishing",
+  "expected_label": "phishing",
+  "subject": "主管請你協助確認一份發票",
+  "body": "主管剛剛請大家協助確認一份發票資料。若你方便，請先開啟附件確認付款資訊是否正確。",
+  "notes": "AI-style phishing with more natural tone."
+}

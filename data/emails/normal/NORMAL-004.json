@@ -1,0 +1,8 @@
+{
+  "id": "NORMAL-004",
+  "category": "normal",
+  "expected_label": "legitimate",
+  "subject": "Lunch order confirmation",
+  "body": "Your lunch order for Thursday has been confirmed. Please pick it up at the front desk after 12 PM.",
+  "notes": "Normal business/school message."
+}

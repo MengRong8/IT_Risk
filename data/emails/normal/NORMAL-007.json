@@ -1,0 +1,8 @@
+{
+  "id": "NORMAL-007",
+  "category": "normal",
+  "expected_label": "legitimate",
+  "subject": "Guest lecture invitation",
+  "body": "We are hosting a guest lecture on IT risk management next week. Registration is optional.",
+  "notes": "Normal business/school message."
+}

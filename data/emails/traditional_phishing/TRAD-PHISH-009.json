@@ -1,0 +1,8 @@
+{
+  "id": "TRAD-PHISH-009",
+  "category": "traditional_phishing",
+  "expected_label": "phishing",
+  "subject": "Invoice attached - immediate response required",
+  "body": "Please review the attached invoice and complete payment immediately to prevent account closure.",
+  "notes": "Traditional phishing with explicit suspicious indicators."
+}

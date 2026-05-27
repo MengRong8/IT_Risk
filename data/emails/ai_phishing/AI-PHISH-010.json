@@ -1,0 +1,8 @@
+{
+  "id": "AI-PHISH-010",
+  "category": "ai_phishing",
+  "expected_label": "phishing",
+  "subject": "校務系統資料同步確認",
+  "body": "您好，校務系統正在進行資料同步。請盡快完成帳號驗證，確保課程與成績資料可以正常顯示。",
+  "notes": "AI-style phishing with more natural tone."
+}

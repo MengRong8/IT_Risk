@@ -1,0 +1,8 @@
+{
+  "id": "AI-PHISH-002",
+  "category": "ai_phishing",
+  "expected_label": "phishing",
+  "subject": "Quick check on your course portal access",
+  "body": "Hello, we noticed a few students had trouble reaching the course portal after maintenance. Could you sign in through the temporary verification page so we can confirm your access is still active?",
+  "notes": "AI-style phishing with more natural tone."
+}

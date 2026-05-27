@@ -1,0 +1,8 @@
+{
+  "id": "NORMAL-010",
+  "category": "normal",
+  "expected_label": "legitimate",
+  "subject": "Project file naming convention",
+  "body": "Please use the agreed file naming convention when uploading your report drafts to the shared folder.",
+  "notes": "Normal business/school message."
+}

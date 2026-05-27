@@ -1,0 +1,8 @@
+{
+  "id": "AI-PHISH-005",
+  "category": "ai_phishing",
+  "expected_label": "phishing",
+  "subject": "Gentle reminder: HR profile review",
+  "body": "Hi there, HR is doing a routine profile review before the semester ends. Please verify your account details so the records stay consistent.",
+  "notes": "AI-style phishing with more natural tone."
+}

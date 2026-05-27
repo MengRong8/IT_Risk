@@ -1,0 +1,8 @@
+{
+  "id": "NORMAL-006",
+  "category": "normal",
+  "expected_label": "legitimate",
+  "subject": "Library book due reminder",
+  "body": "This is a friendly reminder that your library book is due next Monday. You can renew it through the library portal.",
+  "notes": "Normal business/school message."
+}

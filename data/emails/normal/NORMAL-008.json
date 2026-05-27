@@ -1,0 +1,8 @@
+{
+  "id": "NORMAL-008",
+  "category": "normal",
+  "expected_label": "legitimate",
+  "subject": "Updated classroom location",
+  "body": "Tomorrow's class will move to classroom C302 due to projector maintenance.",
+  "notes": "Normal business/school message."
+}

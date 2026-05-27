@@ -1,0 +1,33 @@
+{
+  "rule_based": {
+    "overall": 0.7666666666666667,
+    "normal": 1.0,
+    "traditional_phishing": 1.0,
+    "ai_phishing": 0.3,
+    "phishing_recall": 0.65,
+    "false_positive_rate": 0.0,
+    "avg_latency_ms": 0.10139999999999999
+  },
+  "openrouter_llm": {
+    "overall": 0.8666666666666667,
+    "normal": 1.0,
+    "traditional_phishing": 1.0,
+    "ai_phishing": 0.6,
+    "phishing_recall": 0.8,
+    "false_positive_rate": 0.0,
+    "avg_latency_ms": 4482.123600000001
+  },
+  "hybrid": {
+    "overall": 0.9,
+    "normal": 1.0,
+    "traditional_phishing": 1.0,
+    "ai_phishing": 0.7,
+    "phishing_recall": 0.85,
+    "false_positive_rate": 0.0,
+    "avg_latency_ms": 669.2052,
+    "decision_source_counts": {
+      "llm_escalation": 6,
+      "rule_based_confident": 24
+    }
+  }
+}

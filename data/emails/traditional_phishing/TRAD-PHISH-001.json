@@ -1,0 +1,8 @@
+{
+  "id": "TRAD-PHISH-001",
+  "category": "traditional_phishing",
+  "expected_label": "phishing",
+  "subject": "Final notice: verify your account today",
+  "body": "Your account will be suspended. Login immediately and verify your password within 24 hours: http://example.com/login",
+  "notes": "Traditional phishing with explicit suspicious indicators."
+}

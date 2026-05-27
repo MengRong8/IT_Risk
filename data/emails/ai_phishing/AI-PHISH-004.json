@@ -1,0 +1,8 @@
+{
+  "id": "AI-PHISH-004",
+  "category": "ai_phishing",
+  "expected_label": "phishing",
+  "subject": "報銷流程小幅調整確認",
+  "body": "您好，財務部這週測試新的報銷流程。方便的話，請今天內確認退款帳戶是否正確，避免後續付款延遲。",
+  "notes": "AI-style phishing with more natural tone."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "AI-PHISH-009",
+  "category": "ai_phishing",
+  "expected_label": "phishing",
+  "subject": "Small update to payment contact details",
+  "body": "Hello, we are reconciling payment contact details for the project. Please review the statement and confirm the bank account listed for future payments.",
+  "notes": "AI-style phishing with more natural tone."
+}

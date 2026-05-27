@@ -1,0 +1,8 @@
+{
+  "id": "AI-PHISH-006",
+  "category": "ai_phishing",
+  "expected_label": "phishing",
+  "subject": "Class platform migration check",
+  "body": "Dear student, we are checking whether everyone can access the new class platform. Please use the temporary login page to confirm your account verification status.",
+  "notes": "AI-style phishing with more natural tone."
+}

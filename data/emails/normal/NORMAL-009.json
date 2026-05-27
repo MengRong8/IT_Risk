@@ -1,0 +1,8 @@
+{
+  "id": "NORMAL-009",
+  "category": "normal",
+  "expected_label": "legitimate",
+  "subject": "Monthly newsletter",
+  "body": "Here is the monthly department newsletter with event summaries and upcoming activities.",
+  "notes": "Normal business/school message."
+}

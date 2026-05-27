@@ -1,0 +1,8 @@
+{
+  "id": "AI-PHISH-001",
+  "category": "ai_phishing",
+  "expected_label": "phishing",
+  "subject": "Updated reimbursement workflow for this week",
+  "body": "Hi Oneal, finance is piloting a smoother reimbursement workflow this week. When you have a moment today, please review the attached guidance and confirm the bank account used for refunds.",
+  "notes": "AI-style phishing with more natural tone."
+}

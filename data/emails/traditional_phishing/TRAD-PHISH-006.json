@@ -1,0 +1,8 @@
+{
+  "id": "TRAD-PHISH-006",
+  "category": "traditional_phishing",
+  "expected_label": "phishing",
+  "subject": "IT department password reset",
+  "body": "The IT department requires all users to login immediately and verify your account to avoid suspension.",
+  "notes": "Traditional phishing with explicit suspicious indicators."
+}

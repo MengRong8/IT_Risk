@@ -1,0 +1,8 @@
+openrouter:
+  model: "openai/gpt-4o-mini"
+  temperature: 0
+  max_tokens: 800
+
+rule_based:
+  phishing_threshold: 60
+  uncertain_threshold: 30

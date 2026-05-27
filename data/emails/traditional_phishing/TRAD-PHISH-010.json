@@ -1,0 +1,8 @@
+{
+  "id": "TRAD-PHISH-010",
+  "category": "traditional_phishing",
+  "expected_label": "phishing",
+  "subject": "人資薪資資料確認",
+  "body": "人資通知：請今天內登入並更新密碼，以確認薪資帳戶資料。",
+  "notes": "Traditional phishing with explicit suspicious indicators."
+}
