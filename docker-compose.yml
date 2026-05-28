@@ -1,0 +1,41 @@
+services:
+  detector_api:
+    build:
+      context: .
+    environment:
+      APP_MODULE: src.detector_api
+      PORT: 8000
+    ports:
+      - "${DETECTOR_API_PORT:-8000}:8000"
+    volumes:
+      - ./.env:/app/.env:ro
+      - ./results:/app/results
+
+  web_chatbot:
+    build:
+      context: .
+    environment:
+      APP_MODULE: src.prompt_injection_app
+      PORT: 5000
+    ports:
+      - "${WEB_CHATBOT_PORT:-5000}:5000"
+    volumes:
+      - ./.env:/app/.env:ro
+      - ./results:/app/results
+
+  dashboard_frontend:
+    build:
+      context: .
+    environment:
+      APP_MODULE: src.dashboard_frontend
+      PORT: 8080
+      DETECTOR_API_BASE: http://detector_api:8000
+      CHATBOT_API_BASE: http://web_chatbot:5000
+    ports:
+      - "${DASHBOARD_FRONTEND_PORT:-8080}:8080"
+    depends_on:
+      - detector_api
+      - web_chatbot
+    volumes:
+      - ./.env:/app/.env:ro
+      - ./results:/app/results

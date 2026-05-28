@@ -1,31 +1,31 @@
-id,category,expected_label,detector,predicted_label,risk_score,is_correct,latency_ms,matched_rules,reasons,suspicious_indicators,subject
-AI-PHISH-001,ai_phishing,phishing,rule_based,uncertain,40,False,0.963,financial_action;attachment_lure,,,Updated reimbursement workflow for this week
-AI-PHISH-002,ai_phishing,phishing,rule_based,legitimate,0,False,0.25,,,,Quick check on your course portal access
-AI-PHISH-003,ai_phishing,phishing,rule_based,uncertain,35,False,0.088,credential_request,,,Follow-up on shared drive permissions
-AI-PHISH-004,ai_phishing,phishing,rule_based,phishing,70,True,0.05,urgency;financial_action;impersonation,,,報銷流程小幅調整確認
-AI-PHISH-005,ai_phishing,phishing,rule_based,uncertain,35,False,0.086,credential_request,,,Gentle reminder: HR profile review
-AI-PHISH-006,ai_phishing,phishing,rule_based,uncertain,35,False,0.089,credential_request,,,Class platform migration check
-AI-PHISH-007,ai_phishing,phishing,rule_based,phishing,60,True,0.047,financial_action;attachment_lure;impersonation,,,主管請你協助確認一份發票
-AI-PHISH-008,ai_phishing,phishing,rule_based,uncertain,35,False,0.086,credential_request,,,Account access cleanup before Friday
-AI-PHISH-009,ai_phishing,phishing,rule_based,uncertain,40,False,0.08,financial_action;attachment_lure,,,Small update to payment contact details
-AI-PHISH-010,ai_phishing,phishing,rule_based,phishing,80,True,0.05,credential_request;urgency;impersonation,,,校務系統資料同步確認
-NORMAL-001,normal,legitimate,rule_based,legitimate,0,True,0.076,,,,Weekly project meeting reminder
-NORMAL-002,normal,legitimate,rule_based,legitimate,0,True,0.133,,,,Course announcement: reading list updated
-NORMAL-003,normal,legitimate,rule_based,legitimate,0,True,0.075,,,,Office maintenance notice
-NORMAL-004,normal,legitimate,rule_based,legitimate,0,True,0.072,,,,Lunch order confirmation
-NORMAL-005,normal,legitimate,rule_based,legitimate,15,True,0.064,attachment_lure,,,Team retrospective notes
-NORMAL-006,normal,legitimate,rule_based,legitimate,0,True,0.078,,,,Library book due reminder
-NORMAL-007,normal,legitimate,rule_based,legitimate,0,True,0.069,,,,Guest lecture invitation
-NORMAL-008,normal,legitimate,rule_based,legitimate,0,True,0.065,,,,Updated classroom location
-NORMAL-009,normal,legitimate,rule_based,legitimate,0,True,0.066,,,,Monthly newsletter
-NORMAL-010,normal,legitimate,rule_based,legitimate,0,True,0.074,,,,Project file naming convention
-TRAD-PHISH-001,traditional_phishing,phishing,rule_based,phishing,90,True,0.054,credential_request;urgency;suspicious_url,,,Final notice: verify your account today
-TRAD-PHISH-002,traditional_phishing,phishing,rule_based,phishing,100,True,0.044,credential_request;urgency;suspicious_url;external_pressure,,,銀行帳號最後通知
-TRAD-PHISH-003,traditional_phishing,phishing,rule_based,phishing,65,True,0.058,urgency;financial_action;external_pressure,,,Urgent invoice payment required
-TRAD-PHISH-004,traditional_phishing,phishing,rule_based,phishing,80,True,0.041,credential_request;urgency;impersonation,,,校務系統帳號驗證
-TRAD-PHISH-005,traditional_phishing,phishing,rule_based,phishing,90,True,0.051,credential_request;financial_action;suspicious_url,,,You've won a prize
-TRAD-PHISH-006,traditional_phishing,phishing,rule_based,phishing,95,True,0.044,credential_request;urgency;impersonation;external_pressure,,,IT department password reset
-TRAD-PHISH-007,traditional_phishing,phishing,rule_based,phishing,65,True,0.041,urgency;financial_action;attachment_lure,,,付款失敗通知
-TRAD-PHISH-008,traditional_phishing,phishing,rule_based,phishing,100,True,0.052,credential_request;urgency;suspicious_url;impersonation;external_pressure,,,Final warning from system administrator
-TRAD-PHISH-009,traditional_phishing,phishing,rule_based,phishing,65,True,0.057,urgency;financial_action;attachment_lure,,,Invoice attached - immediate response required
-TRAD-PHISH-010,traditional_phishing,phishing,rule_based,phishing,80,True,0.039,credential_request;urgency;impersonation,,,人資薪資資料確認
+id,category,expected_label,detector,predicted_label,risk_score,is_correct,latency_ms,matched_rules,decision_source,reasons,suspicious_indicators,subject
+AI-PHISH-001,ai_phishing,phishing,rule_based,uncertain,40,False,4.505,financial_action;attachment_lure,,,,Updated reimbursement workflow for this week
+AI-PHISH-002,ai_phishing,phishing,rule_based,legitimate,0,False,0.65,,,,,Quick check on your course portal access
+AI-PHISH-003,ai_phishing,phishing,rule_based,uncertain,35,False,0.171,credential_request,,,,Follow-up on shared drive permissions
+AI-PHISH-004,ai_phishing,phishing,rule_based,phishing,70,True,0.125,urgency;financial_action;impersonation,,,,報銷流程小幅調整確認
+AI-PHISH-005,ai_phishing,phishing,rule_based,uncertain,35,False,0.168,credential_request,,,,Gentle reminder: HR profile review
+AI-PHISH-006,ai_phishing,phishing,rule_based,uncertain,35,False,0.189,credential_request,,,,Class platform migration check
+AI-PHISH-007,ai_phishing,phishing,rule_based,phishing,60,True,0.109,financial_action;attachment_lure;impersonation,,,,主管請你協助確認一份發票
+AI-PHISH-008,ai_phishing,phishing,rule_based,uncertain,35,False,0.166,credential_request,,,,Account access cleanup before Friday
+AI-PHISH-009,ai_phishing,phishing,rule_based,uncertain,40,False,0.158,financial_action;attachment_lure,,,,Small update to payment contact details
+AI-PHISH-010,ai_phishing,phishing,rule_based,phishing,80,True,0.116,credential_request;urgency;impersonation,,,,校務系統資料同步確認
+NORMAL-001,normal,legitimate,rule_based,legitimate,0,True,0.16,,,,,Weekly project meeting reminder
+NORMAL-002,normal,legitimate,rule_based,legitimate,0,True,0.148,,,,,Course announcement: reading list updated
+NORMAL-003,normal,legitimate,rule_based,legitimate,0,True,0.142,,,,,Office maintenance notice
+NORMAL-004,normal,legitimate,rule_based,legitimate,0,True,0.141,,,,,Lunch order confirmation
+NORMAL-005,normal,legitimate,rule_based,legitimate,15,True,0.123,attachment_lure,,,,Team retrospective notes
+NORMAL-006,normal,legitimate,rule_based,legitimate,0,True,0.145,,,,,Library book due reminder
+NORMAL-007,normal,legitimate,rule_based,legitimate,0,True,0.136,,,,,Guest lecture invitation
+NORMAL-008,normal,legitimate,rule_based,legitimate,0,True,0.129,,,,,Updated classroom location
+NORMAL-009,normal,legitimate,rule_based,legitimate,0,True,0.132,,,,,Monthly newsletter
+NORMAL-010,normal,legitimate,rule_based,legitimate,0,True,0.149,,,,,Project file naming convention
+TRAD-PHISH-001,traditional_phishing,phishing,rule_based,phishing,90,True,0.102,credential_request;urgency;suspicious_url,,,,Final notice: verify your account today
+TRAD-PHISH-002,traditional_phishing,phishing,rule_based,phishing,100,True,0.096,credential_request;urgency;suspicious_url;external_pressure,,,,銀行帳號最後通知
+TRAD-PHISH-003,traditional_phishing,phishing,rule_based,phishing,65,True,0.108,urgency;financial_action;external_pressure,,,,Urgent invoice payment required
+TRAD-PHISH-004,traditional_phishing,phishing,rule_based,phishing,80,True,0.09,credential_request;urgency;impersonation,,,,校務系統帳號驗證
+TRAD-PHISH-005,traditional_phishing,phishing,rule_based,phishing,90,True,0.097,credential_request;financial_action;suspicious_url,,,,You've won a prize
+TRAD-PHISH-006,traditional_phishing,phishing,rule_based,phishing,95,True,0.081,credential_request;urgency;impersonation;external_pressure,,,,IT department password reset
+TRAD-PHISH-007,traditional_phishing,phishing,rule_based,phishing,65,True,0.085,urgency;financial_action;attachment_lure,,,,付款失敗通知
+TRAD-PHISH-008,traditional_phishing,phishing,rule_based,phishing,100,True,0.093,credential_request;urgency;suspicious_url;impersonation;external_pressure,,,,Final warning from system administrator
+TRAD-PHISH-009,traditional_phishing,phishing,rule_based,phishing,65,True,0.1,urgency;financial_action;attachment_lure,,,,Invoice attached - immediate response required
+TRAD-PHISH-010,traditional_phishing,phishing,rule_based,phishing,80,True,0.092,credential_request;urgency;impersonation,,,,人資薪資資料確認
